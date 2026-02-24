@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    place-items: center;
+    animation: animation 2s
+    ease alternate infinite;
+    background: linear-gradient(-40deg, #722F37, #ff6961, no-repeat);
+    background-size: 300%
+}
+@keyframes animation {
+from{
+    background-position: 0 50%;
+}
+to{
+    background-position: 100% 50%
+}
+
+}
+
+.japa {
+    border-bottom: solid 5px white;
+    padding: 150px;
+    font-size: 32px
+}
+
+.segunda {
+    place-items: center;
+    height: 350px;
+    margin-left: 400px;
+}
