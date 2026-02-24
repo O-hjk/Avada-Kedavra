@@ -5,8 +5,8 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    animation: animation 2s ease alternate infinite;
-    background: linear-gradient(-40deg, #722F37, #ff6961);
+    animation: animation 4s ease alternate infinite;
+    background: linear-gradient(-40deg, #722F37, #ff6961, #B05969, #ff0000);
     background-size: 300%;
 }
 
@@ -20,7 +20,18 @@ html, body {
 }
 
 .segunda {
-    place-items: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
     height: 350px;
     margin-left: 400px;
+}
+
+.japa {
+
+    font-size: 32px;
+    text-align: center;
+    color: #FFE4E1;
+    text-shadow: 12px 12px 12px rgba(0,0,0,0.3);
+
 }
